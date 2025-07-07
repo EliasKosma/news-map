@@ -1,8 +1,8 @@
 {
   "builds": [
     {
-      "src": "vite.config.js",
-      "use": "@vercel/node"
+      "src": "package.json",
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
@@ -12,6 +12,3 @@
     }
   ]
 }
-
-
-fix: correct vite vercel config
